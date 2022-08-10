@@ -164,5 +164,9 @@ box-shadow: 4px 6px rgb(54, 27, 27);
    #copyright{
     font-size: 10px;
    }
-
+   @media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
 
