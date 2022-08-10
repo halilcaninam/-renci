@@ -78,7 +78,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     grid-column: 1/4;
     background-image: url(arka.jpg);
     height: 70%;
-    width:auto;
+    width:100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
