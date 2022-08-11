@@ -125,6 +125,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     border: 3px rgb(148, 118, 64) solid;
     box-shadow: 5px 5px rgb(31, 8, 8);
     width:100%;
+    height:auto;
    }
    
    .öğrenciler{
@@ -183,5 +184,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
      .second{
        width:100%;
        height:auto;
-}
+} 
+     .second:{
+       width:480px;}
 
