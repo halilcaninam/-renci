@@ -51,9 +51,9 @@ ul{
 }
  ul li a{ grid-row: 1/2;
   grid-column: 3/4;
-  align-self: right;
+  align-self: center;
   text-align: right;
-  margin-left: 50px;
+  margin-left: 30px;
   font-size: 30px;
   background-color: rgb(100, 75, 60);
    list-style:none;
