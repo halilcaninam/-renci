@@ -10,12 +10,12 @@ h1#başlık{
   grid-column: 2/3;
   align-self:center;
   letter-spacing: 25px;
-  margin-right:40px;
+  margin-right:%2;
   font-size: 50px;
   font-family: cursive;
   font-weight: lighter;
   background-color: rgb(100, 75, 60);
-  padding: 20px;
+  padding: 2%;
   justify-self: start;
   text-shadow: 3px 8px rgb(54, 15, 15);
   color: rgb(216, 210, 133);
@@ -32,7 +32,7 @@ h1#başlık{
 
  }
 img#logo{
-  width: 100px;
+  width: 10%;
   grid-row: 1/2;
   grid-column: 1/2;
   opacity: 0.50;
@@ -94,7 +94,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     grid-column: 1/2;
     grid-row: 2/3;
     border-radius: 40px 60px;
-    text-shadow: 6px 6px black;
+    text-shadow: 0.5% 0.6% black;
 
 
    }
@@ -107,7 +107,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     background-color: rgb(54, 15, 15);
     border: 5px rgb(31, 8, 8);
     border-style: groove;
-    box-shadow: 5px 5px rgb(31, 8, 8);
+    box-shadow: 0.5% 1% rgb(31, 8, 8);
     position: relative;
     top: 100px;
     left:100px;
@@ -130,7 +130,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
    }
 
    img{
-    width: 350px;
+    width: 40%;
     height: auto;
     border:3px rgb(235, 188, 102) solid;
     box-shadow: 5px 5px rgb(75, 53, 27);
@@ -152,19 +152,29 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     font-size: 40px;
     text-shadow: 0in;
     color: rgb(235, 188, 102);
-    text-shadow: 6px 6px rgb(54, 27, 27);
+    text-shadow: 0.5% 0.5% rgb(54, 27, 27);
     text-decoration:wavy
    }
    
    #copyright{
-    font-size: 10px;
+    font-size: 1%;
    }
    @media only screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-    body-width:480px;
-    background-position: center;
-   
-  }
+     p{ fon-size:8px;}
+     body {
+     font-size: 12px;
+     background-position: center;
+           width:480px;
+           height:auto;}
+    #bodyp{ font-size:14px;
+         margin-top:10px;
+      border-radius: 8px 12px;
+    }
+    
+    #bodyb/{
+      font-size: 4px;
+      margin: 30px -12px;
+      top:20px;
+      left:20px;}
 }
 
