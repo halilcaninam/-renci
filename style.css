@@ -195,5 +195,6 @@ box-shadow: 4px 6px rgb(54, 27, 27);
      header,
      ul li a{
        overflow:scroll; }
-     ul{ overflow:scroll;}
+     ul,
+     a{ overflow:scroll;}
 
