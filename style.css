@@ -31,9 +31,15 @@ h1#başlık{
   box-sizing: border-box;
   border: 4px goldenrod solid;
   box-shadow: 5px 5px;
-   overflow: hidden;
+   overflow: scroll;
+   -ms-overflow-style: none; 
+  scrollbar-width: none; 
 
  }
+ header::-webkit-scrollbar {
+  display: none;
+}
+
 img#logo{
   width: 200px;
   grid-row: 1/2;
