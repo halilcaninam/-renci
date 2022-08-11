@@ -80,6 +80,8 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     height: auto;
     width:100%;
     background-repeat: no-repeat;
+    background-size:cover;
+     background-position: center;
   
     
    }
@@ -119,7 +121,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     grid-column: 1/4;
     grid-row: 3/5;
     background-color: rgb(68, 39, 31);
-    border: 10px rgb(148, 118, 64) solid;
+    border: 1% rgb(148, 118, 64) solid;
     box-shadow: 5px 5px rgb(31, 8, 8);
    }
    
@@ -136,7 +138,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     box-shadow: 5px 5px rgb(75, 53, 27);
    }
    img:hover{
-    width: 400px;
+    width: 60%;
    }
    #baş-iki{
     text-align: center;
@@ -161,7 +163,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
    }
    @media only screen and (max-width: 480px) {
      p{ fon-size:8px;}
-     body {
+     body {background-position: center;
      font-size: 12px;
      background-position: center;
            width:480px;
