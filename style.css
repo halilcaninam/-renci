@@ -31,6 +31,7 @@ h1#başlık{
   box-sizing: border-box;
   border: 4px goldenrod solid;
   box-shadow: 5px 5px;
+   overflow:auto;
 
  }
 img#logo{
@@ -47,6 +48,7 @@ ul{
   grid-row: 1/2;
   grid-column: 1/4;
   list-style:none;
+  overflow:scroll;
 
 }
  ul li a{ grid-row: 1/2;
@@ -57,6 +59,7 @@ ul{
   font-size: 30px;
   background-color: rgb(100, 75, 60);
    list-style:none;
+   overflow: scroll;
    
   
 }
@@ -67,6 +70,7 @@ border: 3px rgb(80, 80, 202) solid;
 color: rgb(221, 204, 150);
 background-color: rgb(148, 37, 30);
 box-shadow: 4px 6px rgb(54, 27, 27);
+  overflow:scroll;
 
   }
   a:hover{
@@ -192,9 +196,9 @@ box-shadow: 4px 6px rgb(54, 27, 27);
 } 
      .second {
        width:480px;}
-     header,
+     header{overflow:scroll;}
      ul li a{
        overflow:scroll; }
-     ul,
+     
      a{ overflow:scroll;}
 
