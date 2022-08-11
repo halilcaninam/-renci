@@ -181,7 +181,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
       border-radius: 8px 12px;
     }
     
-    #bodyb/{
+    #bodyb{
       font-size: 4px;
       margin: 30px -12px;
       top:20px;
@@ -190,9 +190,10 @@ box-shadow: 4px 6px rgb(54, 27, 27);
        width:100%;
        height:auto;
 } 
-     .second:{
+     .second {
        width:480px;}
      header,
      ul li a{
        overflow:scroll; }
+     ul{ overflow:scroll;}
 
