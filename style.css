@@ -52,11 +52,12 @@ ul{
  ul li a{ grid-row: 1/2;
   grid-column: 3/4;
   align-self: center;
-  text-align: right;
+  text-align: center;
   margin-left: 30px;
   font-size: 30px;
   background-color: rgb(100, 75, 60);
    list-style:none;
+   
   
 }
 
@@ -191,4 +192,6 @@ box-shadow: 4px 6px rgb(54, 27, 27);
 } 
      .second:{
        width:480px;}
+     ul li a{
+       ovwrflow:scroll; }
 
