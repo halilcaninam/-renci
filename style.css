@@ -44,6 +44,7 @@ ul{
   background-color: rgb(100, 75, 60);
   grid-row: 1/2;
   grid-column: 1/4;
+  list-style:none;
 
 }
  ul li a{ grid-row: 1/2;
@@ -53,6 +54,7 @@ ul{
   margin-left: 50px;
   font-size: 30px;
   background-color: rgb(100, 75, 60);
+   list-style:none;
   
 }
 
@@ -123,6 +125,8 @@ box-shadow: 4px 6px rgb(54, 27, 27);
     background-color: rgb(68, 39, 31);
     border: 1% rgb(148, 118, 64) solid;
     box-shadow: 5px 5px rgb(31, 8, 8);
+    width:100%;
+    height:auto;
    }
    
    .öğrenciler{
