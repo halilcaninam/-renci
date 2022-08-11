@@ -31,7 +31,7 @@ h1#başlık{
   box-sizing: border-box;
   border: 4px goldenrod solid;
   box-shadow: 5px 5px;
-   overflow:auto;
+   overflow: hidden;
 
  }
 img#logo{
