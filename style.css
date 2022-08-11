@@ -192,6 +192,7 @@ box-shadow: 4px 6px rgb(54, 27, 27);
 } 
      .second:{
        width:480px;}
+     header,
      ul li a{
-       ovwrflow:scroll; }
+       overflow:scroll; }
 
